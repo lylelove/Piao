@@ -1,0 +1,27 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"username": {
+			"bsonType": "string",
+			"title": "用户名"
+		},
+		"userinchar": {
+			"title": "用户学习单词"
+		},
+		"usersearch": {
+			"title": "用户查词历史"
+		},
+		"password": {},
+		"joindata": {}
+	}
+}

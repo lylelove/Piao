@@ -1,0 +1,22 @@
+{
+	"easycom": {
+			"^tm-(.*)": "@/tm-vuetify/components/tm-$1/tm-$1.vue"
+		},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app",
+			"app-plus":{
+								// 将回弹属性关掉
+								"bounce":"none"
+							}
+		}
+	}],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
